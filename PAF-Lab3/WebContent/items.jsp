@@ -20,6 +20,21 @@ if (request.getParameter("ItemCode") != null)
  		session.setAttribute("statusMsg", stsMsg);
  }
 
+
+
+//Delete item----------------------------------
+if (request.getParameter("itemID") != null)
+
+  {
+	
+		Item itemObj = new Item();
+		
+		String stsMsg = itemObj.deleteItem(request.getParameter("itemID"));
+		
+		session.setAttribute("statusMsg", stsMsg);
+
+} 
+
 %>
     
 <!DOCTYPE html>
