@@ -22,10 +22,6 @@ if (request.getParameter("ItemCode") != null)
 
 %>
     
-    
-    
-    
-    
 <!DOCTYPE html>
 <html>
 <head>
