@@ -19,7 +19,7 @@ public class Item {
 
 public Connection connect()
 
-{
+{ 
  Connection con = null;
 
  try
@@ -104,11 +104,9 @@ public String readItems()
 			
 			Connection con = connect();
 			
-			if (con == null)
-				
+			if (con == null)		
 			
 		{
-				
 				return "Error while connecting to the database for reading.";
 		}
 			
