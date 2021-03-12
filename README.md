@@ -1,3 +1,3 @@
 # PAF-Lab3-db
 
-The Lab 3 folder inside the master branch contains the lab sheet.
+The Af-Lab3-db folder inside the master branch contains the lab sheet.
